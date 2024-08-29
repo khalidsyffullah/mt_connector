@@ -10,4 +10,3 @@ from . import woocommerce_delivery
 from . import woocommerce_refund
 from . import woocommerce_images
 from . import woocommerce_stock_quant
-from . import woowebhookmodels
