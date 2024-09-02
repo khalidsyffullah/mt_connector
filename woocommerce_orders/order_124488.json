@@ -1,0 +1,797 @@
+{
+    "id": 124488,
+    "parent_id": 0,
+    "status": "processing",
+    "currency": "BDT",
+    "version": "8.8.5",
+    "prices_include_tax": false,
+    "date_created": "2024-09-02T18:25:21",
+    "date_modified": "2024-09-02T18:25:21",
+    "discount_total": "0",
+    "discount_tax": "0",
+    "shipping_total": "120",
+    "shipping_tax": "0",
+    "cart_tax": "0",
+    "total": "770",
+    "total_tax": "0",
+    "customer_id": 0,
+    "order_key": "wc_order_xUFZQg3f3wW5E",
+    "billing": {
+        "first_name": "Hasina",
+        "last_name": "",
+        "company": "",
+        "address_1": "Flat 12b Mehedi Tower Mehedibag Chittagong",
+        "address_2": "",
+        "city": "Flat 12b mehedi tower mehedibag",
+        "state": "BD-10",
+        "postcode": "",
+        "country": "BD",
+        "email": "hasinashathi@gmail.com",
+        "phone": "01865211996"
+    },
+    "shipping": {
+        "first_name": "Hasina",
+        "last_name": "",
+        "company": "",
+        "address_1": "Flat 12b Mehedi Tower Mehedibag Chittagong",
+        "address_2": "",
+        "city": "Flat 12b mehedi tower mehedibag",
+        "state": "BD-10",
+        "postcode": "",
+        "country": "BD",
+        "phone": ""
+    },
+    "payment_method": "cod",
+    "payment_method_title": "Cash on delivery",
+    "transaction_id": "",
+    "customer_ip_address": "42.0.6.231",
+    "customer_user_agent": "Mozilla/5.0 (Linux; Android 11; vivo 1901_19 Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/128.0.6613.95 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/479.0.0.48.89;]",
+    "created_via": "checkout",
+    "customer_note": "",
+    "date_completed": null,
+    "date_paid": null,
+    "cart_hash": "8d9b9cd2ad4078a85227ae705c6430ee",
+    "number": "124488",
+    "meta_data": [
+        {
+            "id": 8017293,
+            "key": "_shipping_wooccm9",
+            "value": ""
+        },
+        {
+            "id": 8017294,
+            "key": "_shipping_wooccm10",
+            "value": ""
+        },
+        {
+            "id": 8017295,
+            "key": "is_vat_exempt",
+            "value": "no"
+        },
+        {
+            "id": 8017296,
+            "key": "_wc_points_logged_redemption",
+            "value": {
+                "points": 0,
+                "amount": 0,
+                "discount_code": null
+            }
+        },
+        {
+            "id": 8017297,
+            "key": "_wcpdf_invoice_settings",
+            "value": {
+                "display_shipping_address": "when_different",
+                "display_email": "1",
+                "display_phone": "1",
+                "display_customer_notes": "1",
+                "display_date": "invoice_date",
+                "due_date": "",
+                "mark_printed": [
+                    "single",
+                    "bulk"
+                ],
+                "unmark_printed": "1",
+                "header_logo": "77424",
+                "header_logo_height": "",
+                "vat_number": {
+                    "default": ""
+                },
+                "coc_number": {
+                    "default": ""
+                },
+                "shop_name": {
+                    "default": "Lavishta"
+                },
+                "shop_address": {
+                    "default": ""
+                },
+                "footer": {
+                    "default": ""
+                },
+                "extra_1": {
+                    "default": ""
+                },
+                "extra_2": {
+                    "default": ""
+                },
+                "extra_3": {
+                    "default": ""
+                }
+            }
+        },
+        {
+            "id": 8017298,
+            "key": "_wcpdf_invoice_display_date",
+            "value": "invoice_date"
+        },
+        {
+            "id": 8017299,
+            "key": "_wcpdf_invoice_creation_trigger",
+            "value": "email_attachment"
+        },
+        {
+            "id": 8017300,
+            "key": "_wcpdf_invoice_date",
+            "value": "1725279921"
+        },
+        {
+            "id": 8017301,
+            "key": "_wcpdf_invoice_date_formatted",
+            "value": "2024-09-02 18:25:21"
+        },
+        {
+            "id": 8017302,
+            "key": "_wcpdf_invoice_number",
+            "value": "028759"
+        },
+        {
+            "id": 8017303,
+            "key": "_wcpdf_invoice_number_data",
+            "value": {
+                "number": 28759,
+                "formatted_number": "028759",
+                "prefix": "",
+                "suffix": "",
+                "document_type": "invoice",
+                "order_id": 124488,
+                "padding": "6"
+            }
+        }
+    ],
+    "line_items": [
+        {
+            "id": 95898,
+            "name": "Sheglam - For The Flush Lip & Cheek Tint - Cherry Picked",
+            "product_id": 64368,
+            "variation_id": 64456,
+            "quantity": 1,
+            "tax_class": "",
+            "subtotal": "650",
+            "subtotal_tax": "0",
+            "total": "650",
+            "total_tax": "0",
+            "taxes": [],
+            "meta_data": [
+                {
+                    "id": 799973,
+                    "key": "pa_color",
+                    "value": "cherry-picked",
+                    "display_key": "Color",
+                    "display_value": "Cherry Picked"
+                },
+                {
+                    "id": 799980,
+                    "key": "_reduced_stock",
+                    "value": "1",
+                    "display_key": "_reduced_stock",
+                    "display_value": "1"
+                }
+            ],
+            "sku": "L02995-Cherry Picked",
+            "price": 650,
+            "image": {
+                "id": 64793,
+                "src": "https://lavishta.com/wp-content/uploads/2023/11/169319417248c4f1844c6edb8805fc57d39a91efd7_f3b87705-087b-4d0a-b7a9-bb30b9ac8e9f-1.jpg"
+            },
+            "parent_name": "Sheglam - For The Flush Lip & Cheek Tint",
+            "product_data": {
+                "id": 64368,
+                "name": "Sheglam - For The Flush Lip & Cheek Tint",
+                "slug": "for-the-flush-lip-cheek-tint",
+                "permalink": "https://lavishta.com/product/for-the-flush-lip-cheek-tint/",
+                "date_created": "2024-09-02T17:11:39",
+                "date_created_gmt": "2024-09-02T11:11:39",
+                "date_modified": "2024-09-02T18:25:23",
+                "date_modified_gmt": "2024-09-02T12:25:23",
+                "type": "variable",
+                "status": "publish",
+                "featured": false,
+                "catalog_visibility": "visible",
+                "description": "<p>Introducing the Sheglam For The Flush Lip & Cheek Tint, the ultimate multitasking product for your face makeup routine. This liquid lip tint and cheek tint combo is a must-have for anyone looking to achieve a natural, flushed look with just one product. Made by Sheglam, a trusted name in the beauty industry, this tint is sure to become a staple in your makeup bag.</p>\n<h2>Benefits:</h2>\n<ul>\n<li>Provides a natural flush of color to lips and cheeks</li>\n<li>Long-lasting formula that stays put all day</li>\n<li>Buildable coverage for a customizable look</li>\n<li>Moisturizing formula that keeps lips hydrated</li>\n<li>Easy to apply and blend for a seamless finish</li>\n</ul>\n<h2>How to Use:</h2>\n<p>For lips: Apply a small amount of the tint to the center of your lips and blend outwards with your finger or a lip brush for a natural-looking stain. For a more intense color, layer the product until you achieve the desired look.</p>\n<p>For cheeks: Dot the tint onto the apples of your cheeks and blend outwards towards your hairline for a flushed, rosy look. Build up the color as needed for a more intense blush.</p>\n<p>Whether you're going for a subtle hint of color or a bold statement, the Sheglam For The Flush Lip & Cheek Tint has you covered. Say goodbye to carrying multiple products in your makeup bag and hello to a versatile, easy-to-use tint that enhances your natural beauty.</p>\n<p>Don't miss out on this must-have product from Sheglam. Add the For The Flush Lip & Cheek Tint to your beauty collection today and experience the effortless beauty of a natural flush with just one product.</p>\n",
+                "short_description": "<p>Enhance your face makeup routine with Sheglam&#8217;s For The Flush Lip &#038; Cheek Tint. This liquid lip tint &#038; balm is a must-have for a natural flush. Buy online at the best price in Bangladesh.</p>\n",
+                "sku": "L02995",
+                "price": "650",
+                "regular_price": "670",
+                "sale_price": "650",
+                "date_on_sale_from": "2024-09-02T00:00:00",
+                "date_on_sale_from_gmt": "2024-09-01T18:00:00",
+                "date_on_sale_to": "2024-09-07T00:00:00",
+                "date_on_sale_to_gmt": "2024-09-06T18:00:00",
+                "on_sale": true,
+                "purchasable": true,
+                "total_sales": 119,
+                "virtual": false,
+                "downloadable": false,
+                "downloads": [],
+                "download_limit": -1,
+                "download_expiry": -1,
+                "external_url": "",
+                "button_text": "",
+                "tax_status": "none",
+                "tax_class": "",
+                "manage_stock": true,
+                "stock_quantity": 73,
+                "backorders": "no",
+                "backorders_allowed": false,
+                "backordered": false,
+                "low_stock_amount": 3,
+                "sold_individually": false,
+                "weight": "43",
+                "dimensions": {
+                    "length": "",
+                    "width": "",
+                    "height": ""
+                },
+                "shipping_required": true,
+                "shipping_taxable": false,
+                "shipping_class": "",
+                "shipping_class_id": 0,
+                "reviews_allowed": true,
+                "average_rating": "0.00",
+                "rating_count": 0,
+                "upsell_ids": [],
+                "cross_sell_ids": [],
+                "parent_id": 0,
+                "purchase_note": "",
+                "categories": [
+                    {
+                        "id": 5413,
+                        "name": "Lip Tints &amp; Balms",
+                        "slug": "lip-tints-balms-face"
+                    },
+                    {
+                        "id": 3662,
+                        "name": "Face",
+                        "slug": "face"
+                    }
+                ],
+                "tags": [
+                    {
+                        "id": 5848,
+                        "name": "Best Seller",
+                        "slug": "best-seller"
+                    },
+                    {
+                        "id": 5849,
+                        "name": "Trending",
+                        "slug": "trending"
+                    },
+                    {
+                        "id": 5852,
+                        "name": "Viral",
+                        "slug": "viral"
+                    }
+                ],
+                "images": [
+                    {
+                        "id": 64727,
+                        "date_created": "2023-11-01T12:46:07",
+                        "date_created_gmt": "2023-11-01T00:46:07",
+                        "date_modified": "2024-06-04T15:19:20",
+                        "date_modified_gmt": "2024-06-04T03:19:20",
+                        "src": "https://lavishta.com/wp-content/uploads/2023/11/169319417248c4f1844c6edb8805fc57d39a91efd7_f3b87705-087b-4d0a-b7a9-bb30b9ac8e9f.jpg",
+                        "name": "Sheglam &#8211; For The Flush Lip &amp; Cheek Tint &#8211; Cherry Picked|Fruit Punch|It&#8217;s Chili",
+                        "alt": "Color: Cherry Picked - Lavishta"
+                    }
+                ],
+                "attributes": [
+                    {
+                        "id": 1,
+                        "name": "Color",
+                        "slug": "pa_color",
+                        "position": 1,
+                        "visible": true,
+                        "variation": true,
+                        "options": [
+                            "Cherry Picked",
+                            "Fruit Punch",
+                            "It's Chili"
+                        ]
+                    },
+                    {
+                        "id": 29,
+                        "name": "Brand",
+                        "slug": "pa_brand",
+                        "position": 2,
+                        "visible": true,
+                        "variation": false,
+                        "options": [
+                            "Sheglam"
+                        ]
+                    }
+                ],
+                "default_attributes": [],
+                "variations": [
+                    64456,
+                    64461,
+                    64462
+                ],
+                "grouped_products": [],
+                "menu_order": 0,
+                "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>670&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 670&nbsp;&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>650&nbsp;<span class=\"woocommerce-Price-currencySymbol\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 650&nbsp;&#2547;&nbsp;.</span>",
+                "related_ids": [
+                    17316,
+                    17310,
+                    17062,
+                    17134,
+                    17503
+                ],
+                "meta_data": [
+                    {
+                        "id": 2861892,
+                        "key": "__is_newly_created_product",
+                        "value": ""
+                    },
+                    {
+                        "id": 2861895,
+                        "key": "_wp_page_template",
+                        "value": "default"
+                    },
+                    {
+                        "id": 2896849,
+                        "key": "__first_variation_id",
+                        "value": "64462"
+                    },
+                    {
+                        "id": 2897082,
+                        "key": "_wc_max_points_earned",
+                        "value": ""
+                    },
+                    {
+                        "id": 2897083,
+                        "key": "_wc_min_points_earned",
+                        "value": ""
+                    },
+                    {
+                        "id": 5564807,
+                        "key": "_yoast_indexnow_last_ping",
+                        "value": "1717471132"
+                    },
+                    {
+                        "id": 6116111,
+                        "key": "wd_page_css_files",
+                        "value": [
+                            "widget-price-filter",
+                            "widget-recent-post-comments",
+                            "widget-wd-recent-posts",
+                            "widget-nav",
+                            "widget-wd-layered-nav",
+                            "woo-mod-swatches-base",
+                            "woo-mod-swatches-filter",
+                            "widget-product-cat",
+                            "widget-layered-nav-stock-status",
+                            "widget-product-list",
+                            "widget-slider-price-filter",
+                            "wpcf7",
+                            "elementor-base",
+                            "elementor-pro-base",
+                            "woocommerce-base",
+                            "mod-star-rating",
+                            "woo-el-track-order",
+                            "woocommerce-block-notices",
+                            "woo-mod-quantity",
+                            "woo-single-prod-el-base",
+                            "woo-mod-stock-status",
+                            "woo-mod-shop-attributes",
+                            "opt-carousel-disable",
+                            "header-base",
+                            "mod-tools",
+                            "header-elements-base",
+                            "header-my-account",
+                            "social-icons",
+                            "header-mobile-nav-dropdown",
+                            "header-cart-side",
+                            "header-cart",
+                            "widget-shopping-cart",
+                            "header-el-category-more-btn",
+                            "header-categories-nav",
+                            "mod-nav-vertical",
+                            "mod-nav-vertical-design-default",
+                            "header-search",
+                            "header-search-form",
+                            "wd-search-results",
+                            "wd-search-form",
+                            "wd-search-cat",
+                            "info-box",
+                            "header-cart-design-3",
+                            "woo-single-prod-builder",
+                            "woo-single-prod-el-gallery",
+                            "woo-single-prod-el-gallery-opt-thumb-left-desktop",
+                            "swiper",
+                            "woo-mod-product-labels",
+                            "woo-mod-product-labels-rect",
+                            "swiper-arrows",
+                            "photoswipe",
+                            "woo-single-prod-el-navigation",
+                            "countdown",
+                            "woo-mod-variation-form",
+                            "woo-mod-variation-form-single",
+                            "woo-mod-swatches-style-1",
+                            "woo-mod-swatches-dis-1",
+                            "mod-comments",
+                            "woo-single-prod-el-reviews",
+                            "woo-single-prod-el-reviews-style-1",
+                            "tabs",
+                            "woo-single-prod-el-tabs-opt-layout-tabs",
+                            "section-title",
+                            "section-title-style-simple-and-brd",
+                            "product-loop",
+                            "product-loop-base",
+                            "woo-mod-add-btn-replace",
+                            "mod-more-description",
+                            "mfp-popup",
+                            "swiper-pagin",
+                            "footer-base",
+                            "mod-nav-menu-label",
+                            "text-block",
+                            "lazy-loading",
+                            "image-gallery",
+                            "scroll-top",
+                            "sticky-add-to-cart",
+                            "woo-mod-quantity-overlap",
+                            "bottom-toolbar"
+                        ]
+                    }
+                ],
+                "stock_status": "instock",
+                "has_options": true,
+                "post_password": "",
+                "brands": [],
+                "is_purchased": false,
+                "min_price": "650",
+                "max_price": "650",
+                "variation_products": [
+                    {
+                        "id": 64456,
+                        "date_created": "2024-09-02T17:28:21",
+                        "date_created_gmt": "2024-09-02T11:28:21",
+                        "date_modified": "2024-09-02T18:25:21",
+                        "date_modified_gmt": "2024-09-02T12:25:21",
+                        "description": "",
+                        "permalink": "https://lavishta.com/product/for-the-flush-lip-cheek-tint/?attribute_pa_color=cherry-picked",
+                        "sku": "L02995-Cherry Picked",
+                        "price": 650,
+                        "regular_price": 670,
+                        "sale_price": 650,
+                        "date_on_sale_from": "2024-09-02T00:00:00",
+                        "date_on_sale_from_gmt": "2024-09-01T18:00:00",
+                        "date_on_sale_to": "2024-09-07T00:00:00",
+                        "date_on_sale_to_gmt": "2024-09-06T18:00:00",
+                        "on_sale": true,
+                        "visible": true,
+                        "purchasable": true,
+                        "virtual": false,
+                        "downloadable": false,
+                        "downloads": [],
+                        "download_limit": -1,
+                        "download_expiry": -1,
+                        "tax_status": "none",
+                        "tax_class": "",
+                        "manage_stock": true,
+                        "stock_quantity": 32,
+                        "in_stock": true,
+                        "backorders": "no",
+                        "backorders_allowed": false,
+                        "backordered": false,
+                        "weight": "43",
+                        "dimensions": {
+                            "length": "",
+                            "width": "",
+                            "height": ""
+                        },
+                        "shipping_class": "",
+                        "shipping_class_id": 0,
+                        "image": {
+                            "id": 64793,
+                            "date_created": "2023-11-01T13:15:03",
+                            "date_created_gmt": "2023-11-01T01:15:03",
+                            "date_modified": "2024-06-04T15:19:24",
+                            "date_modified_gmt": "2024-06-04T03:19:24",
+                            "src": "https://lavishta.com/wp-content/uploads/2023/11/169319417248c4f1844c6edb8805fc57d39a91efd7_f3b87705-087b-4d0a-b7a9-bb30b9ac8e9f-1.jpg",
+                            "name": "169319417248c4f1844c6edb8805fc57d39a91efd7_f3b87705-087b-4d0a-b7a9-bb30b9ac8e9f-1.jpg",
+                            "alt": "Color: Cherry Picked - Lavishta",
+                            "position": 0
+                        },
+                        "attributes": [
+                            {
+                                "id": 1,
+                                "name": "Color",
+                                "option": "Cherry Picked"
+                            }
+                        ],
+                        "menu_order": 0,
+                        "meta_data": [
+                            {
+                                "id": 2078025,
+                                "key": "_wp_page_template",
+                                "value": "default"
+                            }
+                        ],
+                        "is_purchased": false
+                    },
+                    {
+                        "id": 64461,
+                        "date_created": "2024-09-02T17:28:21",
+                        "date_created_gmt": "2024-09-02T11:28:21",
+                        "date_modified": "2024-09-02T17:28:35",
+                        "date_modified_gmt": "2024-09-02T11:28:35",
+                        "description": "",
+                        "permalink": "https://lavishta.com/product/for-the-flush-lip-cheek-tint/?attribute_pa_color=fruit-punch",
+                        "sku": "L02995-Fruit Punch",
+                        "price": 650,
+                        "regular_price": 670,
+                        "sale_price": 650,
+                        "date_on_sale_from": "2024-09-02T00:00:00",
+                        "date_on_sale_from_gmt": "2024-09-01T18:00:00",
+                        "date_on_sale_to": "2024-09-07T00:00:00",
+                        "date_on_sale_to_gmt": "2024-09-06T18:00:00",
+                        "on_sale": true,
+                        "visible": true,
+                        "purchasable": true,
+                        "virtual": false,
+                        "downloadable": false,
+                        "downloads": [],
+                        "download_limit": -1,
+                        "download_expiry": -1,
+                        "tax_status": "none",
+                        "tax_class": "",
+                        "manage_stock": true,
+                        "stock_quantity": 1,
+                        "in_stock": true,
+                        "backorders": "no",
+                        "backorders_allowed": false,
+                        "backordered": false,
+                        "weight": "43",
+                        "dimensions": {
+                            "length": "",
+                            "width": "",
+                            "height": ""
+                        },
+                        "shipping_class": "",
+                        "shipping_class_id": 0,
+                        "image": {
+                            "id": 64791,
+                            "date_created": "2023-11-01T13:14:59",
+                            "date_created_gmt": "2023-11-01T01:14:59",
+                            "date_modified": "2024-06-04T15:19:24",
+                            "date_modified_gmt": "2024-06-04T03:19:24",
+                            "src": "https://lavishta.com/wp-content/uploads/2023/11/1693194173c7e1367b0255811888c68a18ab4a8e81_a96c25a8-e435-47bc-bd51-08895fe8aa6a-1.jpg",
+                            "name": "1693194173c7e1367b0255811888c68a18ab4a8e81_a96c25a8-e435-47bc-bd51-08895fe8aa6a-1.jpg",
+                            "alt": "Color: Fruit Punch - Lavishta",
+                            "position": 0
+                        },
+                        "attributes": [
+                            {
+                                "id": 1,
+                                "name": "Color",
+                                "option": "Fruit Punch"
+                            }
+                        ],
+                        "menu_order": 0,
+                        "meta_data": [
+                            {
+                                "id": 2078049,
+                                "key": "_wp_page_template",
+                                "value": "default"
+                            }
+                        ],
+                        "is_purchased": false
+                    },
+                    {
+                        "id": 64462,
+                        "date_created": "2024-09-02T17:28:21",
+                        "date_created_gmt": "2024-09-02T11:28:21",
+                        "date_modified": "2024-09-02T17:28:35",
+                        "date_modified_gmt": "2024-09-02T11:28:35",
+                        "description": "",
+                        "permalink": "https://lavishta.com/product/for-the-flush-lip-cheek-tint/?attribute_pa_color=its-chili",
+                        "sku": "L02995-It's Chili",
+                        "price": 650,
+                        "regular_price": 670,
+                        "sale_price": 650,
+                        "date_on_sale_from": "2024-09-02T00:00:00",
+                        "date_on_sale_from_gmt": "2024-09-01T18:00:00",
+                        "date_on_sale_to": "2024-09-07T00:00:00",
+                        "date_on_sale_to_gmt": "2024-09-06T18:00:00",
+                        "on_sale": true,
+                        "visible": true,
+                        "purchasable": true,
+                        "virtual": false,
+                        "downloadable": false,
+                        "downloads": [],
+                        "download_limit": -1,
+                        "download_expiry": -1,
+                        "tax_status": "none",
+                        "tax_class": "",
+                        "manage_stock": true,
+                        "stock_quantity": 39,
+                        "in_stock": true,
+                        "backorders": "no",
+                        "backorders_allowed": false,
+                        "backordered": false,
+                        "weight": "43",
+                        "dimensions": {
+                            "length": "",
+                            "width": "",
+                            "height": ""
+                        },
+                        "shipping_class": "",
+                        "shipping_class_id": 0,
+                        "image": {
+                            "id": 64792,
+                            "date_created": "2023-11-01T13:15:01",
+                            "date_created_gmt": "2023-11-01T01:15:01",
+                            "date_modified": "2024-06-04T15:19:24",
+                            "date_modified_gmt": "2024-06-04T03:19:24",
+                            "src": "https://lavishta.com/wp-content/uploads/2023/11/1693194173be0b559b2436fb108946c6ceae97fe00_b0e96bf0-4767-4991-add1-05ac08d42bce-1.jpg",
+                            "name": "1693194173be0b559b2436fb108946c6ceae97fe00_b0e96bf0-4767-4991-add1-05ac08d42bce-1.jpg",
+                            "alt": "Color: It's Chili - Lavishta",
+                            "position": 0
+                        },
+                        "attributes": [
+                            {
+                                "id": 1,
+                                "name": "Color",
+                                "option": "It's Chili"
+                            }
+                        ],
+                        "menu_order": 0,
+                        "meta_data": [
+                            {
+                                "id": 2078073,
+                                "key": "_wp_page_template",
+                                "value": "default"
+                            }
+                        ],
+                        "is_purchased": false
+                    }
+                ],
+                "attributesData": [
+                    {
+                        "id": 1,
+                        "name": "pa_color",
+                        "options": [
+                            {
+                                "term_id": 5412,
+                                "name": "Cherry Picked",
+                                "slug": "cherry-picked",
+                                "term_group": 0,
+                                "term_taxonomy_id": 5412,
+                                "taxonomy": "pa_color",
+                                "description": "",
+                                "parent": 0,
+                                "count": 1,
+                                "filter": "raw"
+                            },
+                            {
+                                "term_id": 5414,
+                                "name": "Fruit Punch",
+                                "slug": "fruit-punch",
+                                "term_group": 0,
+                                "term_taxonomy_id": 5414,
+                                "taxonomy": "pa_color",
+                                "description": "",
+                                "parent": 0,
+                                "count": 1,
+                                "filter": "raw"
+                            },
+                            {
+                                "term_id": 5415,
+                                "name": "It's Chili",
+                                "slug": "its-chili",
+                                "term_group": 0,
+                                "term_taxonomy_id": 5415,
+                                "taxonomy": "pa_color",
+                                "description": "",
+                                "parent": 0,
+                                "count": 1,
+                                "filter": "raw"
+                            }
+                        ],
+                        "position": 1,
+                        "visible": true,
+                        "variation": true,
+                        "is_visible": 1,
+                        "is_variation": 1,
+                        "is_taxonomy": 1,
+                        "value": "",
+                        "label": "Color"
+                    },
+                    {
+                        "id": 29,
+                        "name": "pa_brand",
+                        "options": [
+                            {
+                                "term_id": 6390,
+                                "name": "Sheglam",
+                                "slug": "sheglam",
+                                "term_group": 0,
+                                "term_taxonomy_id": 6390,
+                                "taxonomy": "pa_brand",
+                                "description": "",
+                                "parent": 0,
+                                "count": 51,
+                                "filter": "raw"
+                            }
+                        ],
+                        "position": 2,
+                        "visible": true,
+                        "variation": false,
+                        "is_visible": 1,
+                        "is_variation": 0,
+                        "is_taxonomy": 1,
+                        "value": "",
+                        "label": "Brand"
+                    }
+                ]
+            }
+        }
+    ],
+    "tax_lines": [],
+    "shipping_lines": [
+        {
+            "id": 95899,
+            "method_title": "Outside Dhaka",
+            "method_id": "flat_rate",
+            "instance_id": "3",
+            "total": "120",
+            "total_tax": "0",
+            "taxes": [],
+            "meta_data": [
+                {
+                    "id": 799979,
+                    "key": "Items",
+                    "value": "Sheglam - For The Flush Lip & Cheek Tint - Cherry Picked &times; 1",
+                    "display_key": "Items",
+                    "display_value": "Sheglam - For The Flush Lip &amp; Cheek Tint - Cherry Picked &times; 1"
+                }
+            ]
+        }
+    ],
+    "fee_lines": [],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https://lavishta.com/checkout/order-pay/124488/?pay_for_order=true&key=wc_order_xUFZQg3f3wW5E",
+    "is_editable": false,
+    "needs_payment": false,
+    "needs_processing": true,
+    "date_created_gmt": "2024-09-02T12:25:21",
+    "date_modified_gmt": "2024-09-02T12:25:21",
+    "date_completed_gmt": null,
+    "date_paid_gmt": null,
+    "bacs_info": false,
+    "currency_symbol": "\u09f3 ",
+    "_links": {
+        "self": [
+            {
+                "href": "https://lavishta.com/wp-json/wc/v3/orders/124488"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https://lavishta.com/wp-json/wc/v3/orders"
+            }
+        ]
+    }
+}

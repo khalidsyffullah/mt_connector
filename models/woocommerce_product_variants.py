@@ -66,31 +66,30 @@ class WooCommerceProductVariants(models.Model):
                 raise UserError(_("Please check your connection and try again"))
         else :
             raise UserError(_("Connection Instance needs to authenticate first. \n Please try after authenticating connection!!!"))
-        
+
     def wooc_variations_update(self, variant):
         product_tmpl = self.product_template_id
         product_wooc_id = product_tmpl.wooc_id
-        variation_id = variant.wooc_id        
-        
+        variation_id = variant.wooc_id
+
         woo_api = self.init_wc_api(product_tmpl.woocomm_instance_id)
-                      
+
         data = {"regular_price": variant.wooc_regular_price,
                 "sku" : variant.wooc_sku,
                 "stock_status" : variant.wooc_stock_status,
                 "status" : "publish" if variant.is_enabled else "private",
                 "purchasable" : True if variant.is_enabled else False,
                 # "manage_stock" : True if variant.is_manage_stock else False,
-                # "stock_quantity" : int(variant.wooc_stock_quantity),                
-                # "description" : variant.wooc_variant_description,                
+                # "stock_quantity" : int(variant.wooc_stock_quantity),
+                # "description" : variant.wooc_variant_description,
                 }
-                    
+
         wc_variation = woo_api.put("products/%s/variations/%s"%(product_wooc_id,variation_id), data).json()
-        
+
         product_variant = self.env['product.product'].sudo().search([('product_tmpl_id', '=', product_tmpl.id), ('woocomm_variant_id', '=', variation_id)])
-        product_variant.write({ 'woocomm_regular_price' : wc_variation["regular_price"], 
+        product_variant.write({ 'woocomm_regular_price' : wc_variation["regular_price"],
                                 'woocomm_sale_price' : wc_variation["sale_price"],})
-        
+
         self.write({'wooc_stock_quantity' : str(wc_variation["stock_quantity"]),
                      'is_manage_stock' : wc_variation["manage_stock"],})
         self.env.cr.commit()
-        

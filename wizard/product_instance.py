@@ -5,6 +5,8 @@ from odoo import models, _, api, fields
 import logging
 
 _logger = logging.getLogger(__name__)
+
+
 class WooCommerceProductInstanceExp(models.Model):
     _name = 'woocomm.product.instance.exp'
     _description = 'Product Export Instance'
@@ -15,13 +17,14 @@ class WooCommerceProductInstanceExp(models.Model):
 
     def product_instance_selected_for_exp(self):
 
-        self.env['product.template'].export_product(self.woocomm_instance_id, self.force_update_product, self.force_update_image)
+        self.env['product.template'].export_product(self.woocomm_instance_id, self.force_update_product,
+                                                    self.force_update_image)
         return {'type': 'ir.actions.act_window_close'}
         # return self.env['message.wizard'].success("No new Product to Export..!! \nIf trying to export existing product, tick Force Update Product")
-        
+
     @api.model
     def default_get(self, fields):
-               
+
         res = super(WooCommerceProductInstanceExp, self).default_get(fields)
         try:
             instance = self.env['woocommerce.instance'].search([])[0]
@@ -30,10 +33,10 @@ class WooCommerceProductInstanceExp(models.Model):
 
         if instance:
             res['woocomm_instance_id'] = instance.id
-        
+
         if self.env['woocommerce.instance']._context.get('woocomm_instance_id'):
             res['woocomm_instance_id'] = self.env['woocommerce.instance']._context.get('woocomm_instance_id')
-                          
+
         return res
 
 
@@ -44,13 +47,13 @@ class WooCommerceProductInstanceImp(models.Model):
     woocomm_instance_id = fields.Many2one('woocommerce.instance')
     is_force_update = fields.Boolean(string="Force Import and Update From WooCommerce", default=False)
 
-
     def product_instance_selected_for_imp(self):
         self.env['product.template'].import_product(self.woocomm_instance_id, self.is_force_update)
-        
-        current_instance = self.env['woocommerce.instance'].sudo().search([('id','=',self.woocomm_instance_id.id)],limit=1)
+
+        current_instance = self.env['woocommerce.instance'].sudo().search([('id', '=', self.woocomm_instance_id.id)],
+                                                                          limit=1)
         product_action = current_instance.get_products()
-        product_action['product_action'].update({'target': "main",})
+        product_action['product_action'].update({'target': "main", })
         return product_action['product_action']
 
     @api.model
@@ -63,5 +66,5 @@ class WooCommerceProductInstanceImp(models.Model):
 
         if instance:
             res['woocomm_instance_id'] = instance.id
-  
+
         return res
